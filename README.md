@@ -4,6 +4,8 @@ Importe votre bibliothèque Goodreads dans Obsidian à partir de l'export CSV of
 
 Le fichier CSV en question est un fichier unique lié à la personne, via un compte Goodreads
 
+The uploaded files on this git include both the Zip files (containing the JavaScript code and the TypeScript code) as well as the individual files themselves. I'm unsure about the industry practices, but this is my first experience using git.
+
 ## ⚠️ Avant tout : qui fait ça ?
 
 Je ne suis **pas développeur**. C'est mon **tout premier projet** de ce genre, réalisé en apprenant sur le tas. Le plugin fonctionne (le code compile et passe une série de tests), mais attendez-vous à des maladresses : le code n'est probablement pas ce qu'un vrai dev aurait écrit.
