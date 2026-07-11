@@ -1,0 +1,60 @@
+/* styles.css — c'est bien un fichier CSS (il était étiqueté "typescript"
+   dans la version initiale) */
+
+.goodreads-csv-modal .goodreads-csv-hint {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.goodreads-csv-preview {
+  margin: 0.5em 0;
+  padding: 0.5em 0.8em;
+  border-radius: var(--radius-s);
+  background-color: var(--background-secondary);
+  font-size: var(--font-ui-small);
+}
+
+.goodreads-csv-preview ul {
+  margin: 0.3em 0 0;
+  padding-left: 1.2em;
+}
+
+.goodreads-csv-status {
+  color: var(--text-error);
+  min-height: 1.4em;
+  margin: 0.5em 0;
+  font-size: var(--font-ui-small);
+  white-space: pre-wrap;
+}
+
+.goodreads-csv-progress {
+  margin: 1em 0;
+}
+
+.goodreads-csv-progress.is-hidden {
+  display: none;
+}
+
+.goodreads-csv-progress-label {
+  font-size: var(--font-ui-small);
+  color: var(--text-muted);
+  margin-bottom: 0.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.goodreads-csv-progress-track {
+  height: 8px;
+  border-radius: 4px;
+  background-color: var(--background-modifier-border);
+  overflow: hidden;
+}
+
+.goodreads-csv-progress-bar {
+  height: 100%;
+  width: 0;
+  border-radius: 4px;
+  background-color: var(--interactive-accent);
+  transition: width 0.2s ease;
+}
